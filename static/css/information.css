@@ -1,0 +1,38 @@
+html,body{
+    background-color: khaki;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    width: 600px;
+    height: 1000ppx;
+    /* background-color: rgb(247, 240, 243); */
+    margin: 0 auto;
+}
+.top1{
+    background-color: hotpink;
+}
+.left{
+    background-color: rgb(155, 160, 156);
+    width: 40%;
+    height: 570px;
+    float: left;
+    z-index: 1;
+    position: relative;
+    border-right: 2px solid black;
+}
+.right{
+    background-color: rgb(167, 163, 167);
+    width: 60%;
+    float: left;
+    height: 570px;
+    z-index: 1;
+    position: relative;
+}
+.toright{ 
+    position: absolute;
+    right: 80px;
+   
+}

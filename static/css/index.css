@@ -1,0 +1,40 @@
+html,body{
+    background-color: khaki;
+}
+.pp{
+    height: 30px;
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.a{
+    margin-left: 20px;
+    color: aqua;
+    float: left;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+}
+.b{
+    color: aqua;
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 45%;
+    height: 20px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+}
+.c{
+    margin-right: 20px;
+    color: aqua;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 45px;
+}

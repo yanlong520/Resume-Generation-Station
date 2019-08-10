@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jq.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/resume2.css">
+    <title>为你生成的简历如下</title>
+</head>
+
+<body>
+    <div class=" box">
+        <div class="top1">&nbsp; </div>
+        <div class="box1">
+            <div class="left ">
+                <div class="table-bordered text-center ">个人简历</div>
+                <img src='../img/<%=  data.path %>' alt="头像" class="img-circle">
+                <p class="text-center name"><%=  data.myname %></p>
+                <p class="text-center qiuzhiyixiang">求职意向：<%= data.quarters %></p>
+                <div class="info">
+                    <ul class="list-inline">
+                        <li class="text-center ziliao">个人资料：Personal Info</li>
+                        <hr>
+                        <li class="text-left"><u>&nbsp;&nbsp;生日：<%= data.birthday %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;性别：<%= data.sex %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;籍贯：<%= data.place %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;电话：<%= data.telephone %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;英语：<%= data.english %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;学校：<%= data.school %> </u></li><br>
+                        <li class="text-left"><u>&nbsp;&nbsp;专业：<%= data.profession %> </u></li><br>
+                    </ul>
+                </div>
+            </div>
+            <div class="right ">
+                    <p class="text-center lanmu glyphicon glyphicon-hand-right">&nbsp;&nbsp;&nbsp;&nbsp;教&nbsp;&nbsp;&nbsp;&nbsp;育&nbsp;&nbsp;&nbsp;&nbsp;背&nbsp;&nbsp;&nbsp;&nbsp;景</p>
+                    <div class="area">><%= data.education %></div>
+                    <p class="text-center lanmu glyphicon glyphicon-hand-right">&nbsp;&nbsp;&nbsp;&nbsp;实&nbsp;&nbsp;&nbsp;&nbsp;习&nbsp;&nbsp;&nbsp;&nbsp;经&nbsp;&nbsp;&nbsp;&nbsp;历</p>
+                    <div class="area">><%= data.worktime %></div>
+                    <p class="text-center lanmu glyphicon glyphicon-hand-right">&nbsp;&nbsp;&nbsp;&nbsp;爱&nbsp;&nbsp;&nbsp;&nbsp;好&nbsp;&nbsp;&nbsp;&nbsp;特&nbsp;&nbsp;&nbsp;&nbsp;长</p>
+                    <div class="area">><%= data.hobby %></div>
+                    <p class="text-center lanmu glyphicon glyphicon-hand-right">&nbsp;&nbsp;&nbsp;&nbsp;自&nbsp;&nbsp;&nbsp;&nbsp;我&nbsp;&nbsp;&nbsp;&nbsp;评&nbsp;&nbsp;&nbsp;&nbsp;价</p>
+                    <div class="area">><%= data.valuable %></div>
+            </div>
+        </div>
+        <div class="top1">&nbsp;此简历更新时间:<%= data.date %></div>
+        <a href="/"><h4 id="return" class='glyphicon glyphicon-home'>返回主页面</h4></a>
+    </div>
+</body>
+
+</html>

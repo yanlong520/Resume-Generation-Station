@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jq.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/information.css">
+    <title>填写简历信息</title>
+</head>
+
+<body>
+    <div>
+
+        <form method="POST" action="/sendNewData" id="form" enctype="multipart/form-data">
+            <h1 class="help-block text-center">请将简历信息填写完整</h1>
+            <div class="left">
+                <div class="form-group">
+                    <label for="exampleInputFile">选择头像</label>
+                    <input type="file" id="exampleInputFile" name="file">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 姓名</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" myname" name="myname">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">求职意向 </label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" quarters"
+                        name="quarters"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">生日(格式：1998/8/9) </label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" birthday"
+                        name="birthday"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 性别</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" sex" name="sex"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 籍贯</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" place" name="place">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 电话</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" telephone"
+                        name="telephone"> </div>
+            </div>
+            <div class="right">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 英语水平(格式：CET-4)</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" english"
+                        name="english"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 学校</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" school" name="school">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 专业</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" profession"
+                        name="profession"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 教育背景</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" education"
+                        name="education"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 实习经历</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" worktime"
+                        name="worktime"> </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 爱好特长</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" hobby" name="hobby">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"> 自我评价</label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder=" valuable"
+                        name="valuable"> </div>
+
+                <input type="submit" class="btn btn-success toright" value="提交 / Submit "> </input>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+                         大纲
+阶段：
+      一，html模板，css，js,数据库程序，cookie程序
+      二，页面逻辑，跳转后台接口实现，实现登录--选择模板--填写信息--数据库操作--生成html简历
+      三，完善，多开发模板，用户信息管理和个人信息管理，优化界面
+
+字段：
+      头像        photo
+      姓名        myname
+      求职意向    quarters
+      生日        birthday
+      性别        sex
+      籍贯        place
+      电话        telephone
+      英语        english
+      学校        school
+      专业        profession
+      教育背景    education
+      实习经历    worktime
+      爱好特长    hobby
+      自我评价    valuable
+
+
+
+接口说明：
+
+      GET请求：
+             /                 主界面
+             /getinformation   获取信息，后端发送需要填写信息的界面
+             /render           渲染界面
+
+      POST请求：
+             /sendNewData      发送个人信息数据到后端，后端进行存储
+

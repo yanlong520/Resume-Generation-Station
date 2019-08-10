@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jq.js"></script>
+    <script src="../bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/login.css">
+
+    <title>登录</title>
+</head>
+
+
+<body onLoad="randompic();">
+    <div class="container">
+        <div class="wrap">
+            <div class="title">账号密码登录</div>
+            <div class="info">没有账号赶快
+                <a href="/register">快速注册</a>一个账号吧</div>
+            <form action="/login" id="form" method="POST" enctype="application/x-www-form-urlencoded">
+                <input class="input" type="text" name="username" placeholder="支持QQ号/邮箱/手机号登录">
+                <input class="input" type="password" name="password" placeholder="密码">
+                <input type="submit" id="btn1"></input>
+                <div id="btn2"><a href="/register">快速注册</a></div>
+
+            </form>
+        </div>
+    </div>
+    <script src="../js/login.js">
+    </script>
+</body>
+
+</html>

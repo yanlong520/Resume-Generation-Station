@@ -1,0 +1,114 @@
+html,body{
+    background-color: khaki;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.box{
+    width: 600px;
+    height: 1000ppx;
+    /* background-color: rgb(247, 240, 243); */
+    margin: 0 auto;
+    border: 4px rgb(190, 190, 190) solid;
+}
+.top1{
+    background-color: hotpink;
+}
+.left{
+    background-color: darkgrey;
+    width: 30%;
+    height: 630px;
+    float: left;
+    z-index: 1;
+    position: relative;
+    border-right: 2px solid black;
+}
+.right{
+    background-color: aliceblue;
+    width: 70%;
+    float: left;
+    height: 630px;
+    z-index: 1;
+    position: relative;
+}
+.table-bordered{
+    height: 25px;
+    width: 100px;
+    border: 3px solid rgb(255, 81, 0);
+    border-radius: 15px;
+    position: relative;
+    top: 25px;
+    margin: 0 auto;
+    color: rgb(255, 81, 0);
+}
+.img-circle{
+    height: 120px;
+    width: 120px;
+    position: relative;
+    margin: 0 auto;
+    left: 29px;
+    top: 50px;
+}
+.name{
+    height: 25px;
+    width: 100px;
+    border-radius: 15px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(255, 81, 0);
+}
+.qiuzhiyixiang{
+    height: 23px;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    margin: 0 auto;
+    background-color:  rgb(255, 81, 0);
+    color: rgb(247, 240, 243);
+}
+.info{
+    height: 25px;
+    width: 100%;
+    position: relative;
+    top: 150px;
+    margin: 0 auto;
+}
+.ziliao{
+    color: rgb(255, 81, 0);
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.lanmu{
+    height: 43px;
+    width: 100%;
+    line-height: 35px;
+
+    /* position: relative;
+    top: 120px; */
+    margin: 0 auto;
+    /* background-color:  rgb(255, 81, 0); */
+    color: rgb(255, 81, 0);
+}
+.area{
+    
+    height: 115px;
+    width: 100%;
+    border: 1px solid rgb(255, 81, 0);
+    border-radius: 10px;
+}
+#return{
+    float: left;
+    position: absolute;
+    z-index: 0;
+    left: 20px;
+    top: 20px;
+    border: 2px hotpink solid;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
